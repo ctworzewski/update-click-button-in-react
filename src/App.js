@@ -1,11 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import { CountClick } from './CountClick';
+
+console.log(<CountClick/>)
 
 export function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <CountClick/>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
